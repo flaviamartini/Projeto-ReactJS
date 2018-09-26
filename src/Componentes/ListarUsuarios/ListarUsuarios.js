@@ -23,7 +23,7 @@ export default class ListarUsuarios extends React.Component {
   render() {
     return (
       <ul>
-        { this.state.usuarios.map(usuario => <li>{usuario.title}</li>)}
+        {this.state.usuarios.map(usuario => <li>{usuario.title}</li>)}
       </ul>
     )
   }

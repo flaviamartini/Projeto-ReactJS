@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ListarUsuarios from './Componentes/ListarUsuarios/ListarUsuarios';
+import PaginaUsuarios from './Componentes/PaginaUsuarios/PaginaUsuarios';
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <ListarUsuarios/>
+        
+        <PaginaUsuarios/>
       </div>
     );
   }
