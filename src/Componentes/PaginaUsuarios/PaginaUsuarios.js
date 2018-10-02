@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styles from './PaginaUsuarios.css'
 import ListarUsuarios from '../ListarUsuarios/ListarUsuarios';
+import FormUsuarios from '../FormUsuarios/FormUsuarios';
+
+
 
 class PaginaUsuarios extends Component {
     constructor(props) {
@@ -11,8 +14,8 @@ class PaginaUsuarios extends Component {
     render() {
         return (
             <div className="PaginaUsuarios">
-            <card>aqui vai o componente InputUsuarios</card>
-            <card><ListarUsuarios/></card>
+            <FormUsuarios/>
+            <ListarUsuarios/>
             </div>
         );
     }
