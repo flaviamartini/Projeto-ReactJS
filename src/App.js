@@ -4,16 +4,20 @@ import './App.css';
 import ListarUsuarios from './Componentes/ListarUsuarios/ListarUsuarios';
 import PaginaUsuarios from './Componentes/PaginaUsuarios/PaginaUsuarios';
 
+import { Card, CardContent, Tab, Tabs, AppBar, TabContainer, Menu } from '../node_modules/@material-ui/core';
+
 class App extends Component {
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 className="App-title">menu</h1>
-        </header>
-        
-        <PaginaUsuarios/>
+        <AppBar position="static">
+          <Tabs >
+            <Tab label="Usuários" />
+            <Tab label="Instrumentos" />
+          </Tabs>
+        </AppBar>
+        <PaginaUsuarios />
       </div>
     );
   }

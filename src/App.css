@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 .App-header {
-  background-color: blue;
+  background-color: #3367d6;
   height: 150px;
   padding: 20px;
   color: white;
@@ -25,4 +26,87 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.MuiTypography-subheading-169 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size:  1.5rem !important;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5em;
+}
+.App-Card{
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #fff;
+  width: calc(100% + 16px);
+  margin-left: 40px ;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+    .j697 {
+      margin: 8px;
+      padding: 16px;
+  }
+  
+
+  .j25 {
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .j22 {
+      border-radius: 4px;
+  }
+  
+  .j21 {
+      background-color: #fff;
+  }
+.body-margem{
+margin: 30px;
+padding: 30px}
+ 
+.texto-lista {
+    color: rgba(0, 0, 0, 0.63);
+    font-size:  1.5rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+}
+
+.h1, h1 {
+  font-size: 36px;
+  padding-bottom: 30px;
+  text-align: center;
+  color:#3367d6;
+}
+
+.MuiPaper-elevation1-13 {
+  
+  box-shadow: 1px 1px 20px -6px black !important;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #0000009c !important;
+}
+
+.MuiTypography-subheading-212 {
+  color: rgba(0, 0, 0, 0.76) !important;
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5em;
+}
+.MuiTab-root-46 {
+  font-size: 1.3rem !important;
+  min-width: 160px;
+}
+td, th {
+  padding: 0;
+  min-width: 14em !important;
+  text-align: left !important;
 }
