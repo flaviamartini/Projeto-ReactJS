@@ -9,7 +9,7 @@ export default class ListarUsuarios extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/posts`)
+    axios.get(`http://177.207.220.156:8080/v1/users`)
       .then(res => {
         const usuarios = res.data;
         this.setState({ usuarios });
